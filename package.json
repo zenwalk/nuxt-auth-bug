@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-auth-bug",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxt/http": "^0.3.0",
+    "nuxt": "^2.9.2",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": []
+}
